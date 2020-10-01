@@ -4219,6 +4219,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: static;
     float: none;
     width: auto;
+    text-align: right;
     margin-top: 0;
     background-color: transparent;
     border: 0;
