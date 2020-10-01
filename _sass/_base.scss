@@ -166,9 +166,9 @@ header {
   overflow-y: hidden;
   background: url("../img/bg-pattern.png"), $head-primary;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-secondary, $head-primary);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-secondary, $head-primary);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   .header-content {
@@ -292,8 +292,8 @@ section {
       }
       i {
         font-size: 80px;
-        background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
-        background: linear-gradient(to left, $head-primary, $head-secondary);
+        background: -webkit-linear-gradient(to left, $head-secondary, $head-primary);
+        background: linear-gradient(to left, $head-secondary, $head-primary);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
